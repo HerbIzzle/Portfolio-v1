@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Herbert's Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+<!--    <link id="theme-style" rel="stylesheet" type="text/css">-->
+
+    <style>
+        .img-container {
+            max-width: 800px;
+        }
+        img {
+            width: 100%
+        }
+    </style>
+
+</head>
+<body>
+<div class="nav-wrapper">
+
+    <a href="index.html">
+        <div class="dots-wrapper">
+            <div id="dot-1" class="browser-dot"></div>
+            <div id="dot-2" class="browser-dot"></div>
+            <div id="dot-3" class="browser-dot"></div>
+        </div>
+    </a>
+
+    <ul id="navigation">
+        <input type="checkbox" id="switch" class="switch-input" checked/>
+        <label class="switch-label" for="switch"></label>
+    </ul>
+</div>
+
+<div class="main-container">
+    <br>
+    <div class="img-container">
+        <img src="images/Shopping_app.png">
+    </div>
+
+    <h3>RESTful JS & PHP Shopping Cart</h3>
+
+    <p>Dieses Projekt habe ich letztes Jahr in meinem zweiten Semester an der FH Technikum entwickelt. Das JS & PHP
+        Shopping Cart implementiert fortgeschrittenere Konzepte wie asynchrone Programmierung und RESTful-APIs.</p>
+
+    <p>Das Frontend der App ist in JavaScript unter Verwendung objektorientierter Prinzipien und jQuery geschrieben. Das
+        Frontend beinhaltet Funktionen zum Hinzufügen/Entfernen von Artikeln in den Warenkorb. Ebenso wird der zu
+        zahlende Gesamtbetrag berechnet und angezeigt.</p>
+
+    <p>Das PHP-Back-End ist in einer MVC-Architektur konzipiert, die Aufrufe an die Datenbank weiterleitet und den
+        Zustand der Speicherung von Artikeln im Einkaufswagen verwaltet.
+    </p>
+
+    <p>Warenkorbartikel werden im Warenkorb gespeichert, bis das Session-Cookie abläuft.</p>
+
+    <p>Link zur <a href="http://dev-bert-shopping-cart-demo.herokuapp.com/">Live Demo</a></p>
+
+    <h5>Technologies & Concepts:</h5>
+    <ul>
+        <li>- JavaScript + Jquery</li>
+        <li>- PHP</li>
+        <li>- MySQL</li>
+        <li>- MVC Architecture</li>
+        <li>- REST</li>
+        <li>- Asynchronous Programming</li>
+        <li>- Session Storage</li>
+        <li>- Deployed with Heroku</li>
+
+    </ul>
+
+    <h5>List Product Type - Asynchronous Call to Backend</h5>
+    <div class="img-container">
+        <img src="images/List_Products_Cart.png">
+    </div>
+
+    <h5>List Cart - Session Storage via REST</h5>
+    <div class="img-container">
+        <img src="images/Cart_Session.png">
+    </div>
+
+</div>
+
+
+<!--<script type="text/javascript" src="script.js"></script>-->
+</body>
+</html>
